@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   {{ partial "head.html" . }}
-  <body>
+  <body style="position: relative" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="56">
     {{ partial "nav.html" . }}
     <!-- Code that all your templates share, like a header -->
     {{ block "main" . }}

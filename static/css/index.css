@@ -2,10 +2,24 @@
     border-radius: 50%;
 } */
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --bs-body-font-family: "Roboto", sans-serif;
+}
+
 #publications img {
-    max-height: 200px;
+  max-height: 200px;
 }
 
 #projects img {
-    max-height: 200px;
+  max-height: 200px;
+}
+
+a {
+  color: #0a58ca;;
+}
+
+a:hover {
+  color: #084298;
 }

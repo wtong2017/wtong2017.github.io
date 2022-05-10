@@ -3,19 +3,13 @@
     <div class="row">
       <div class="col-lg-10 mx-auto">
         {{ with .Site.GetPage "section" "projects" }}
-        <h2 class="text-center">
-          <i class="fa-solid fa-screwdriver-wrench"></i> {{ .Title }}
-        </h2>
+        <h2 class="text-center pb-2">{{ .Title }}</h2>
         {{ range .Pages }}
         <div class="row pb-3">
           <div class="col-md-4">
             {{ if .Params.videoSrc }}
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe
-                class="embed-responsive-item"
-                src="{{.Params.videoSrc}}"
-                allowfullscreen
-              ></iframe>
+            <div class="ratio ratio-16x9">
+              <iframe src="{{.Params.videoSrc}}" allowfullscreen></iframe>
             </div>
             {{else}}
             <img
@@ -26,10 +20,15 @@
             {{end}}
           </div>
           <div class="col-md-8">
-            <div>
-              <a href="{{.Params.link}}" target="blank"><h4>{{.Title}}</h4></a>
-            </div>
-            <div style="text-align: justify;">{{.Content}}</div>
+            <!-- <div>
+              <a
+                href="{{.Params.link}}"
+                target="blank"
+                style="text-decoration: none"
+                ><h4>{{.Title}}</h4></a
+              >
+            </div> -->
+            <div style="text-align: justify">{{.Content}}</div>
             <div>{{.Params.position}}, {{.Params.period}}</div>
           </div>
         </div>
