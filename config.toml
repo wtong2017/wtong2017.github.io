@@ -1,0 +1,5 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "Wai TONG's Personal Website"
+[params]
+    author = 'Wai TONG'
