@@ -3,3 +3,5 @@ languageCode = 'en-us'
 title = "Wai TONG's Personal Website"
 [params]
     author = 'Wai TONG'
+    title = "Ph.D. Candidate"
+    university = "HKUST"
