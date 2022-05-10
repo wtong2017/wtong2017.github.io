@@ -5,7 +5,7 @@ date: 2022-05-10T16:36:14+08:00
 draft: false
 conference: IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VR)
 year: 2022
-authors: Wai Tong*, Haotian Li*, Huan Wei*, Liwenhan Xie*, Yanna Lin*, and Huamin Qu
+authors: Wai Tong*, Haotian Li*, Huan Wei*, Liwenhan Xie*, Yanna Lin*, Huamin Qu
 authorsNote: "(*: equal contribution)"
 link: https://ieeexplore.ieee.org/document/9757646
 imgSrc: img/vr2022.png

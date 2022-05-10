@@ -22,9 +22,7 @@
                 ><b>{{.Params.paperTitle}}</b></a
               >
             </div>
-            <div>
-              {{.Params.authors}}
-            </div>
+            <div>{{ $lower_website_author := lower .Site.Params.author }}{{range $i, $author := (split .Params.authors ",")}}{{ $lower_author := lower (trim $author " ") }}{{ if ne $i 0 }}, {{end}}{{ if in $lower_author $lower_website_author }}<b>{{(trim $author " ")}}</b>{{else}}{{(trim $author " ")}}{{end}}{{end}}</div>
             {{ if .Params.authorsNote}}
             <small>(*: equal contribution)</small>
             {{end}}
@@ -33,8 +31,7 @@
             </div>
           </div>
         </div>
-        {{end}}
-        {{end}}
+        {{end}} {{end}}
       </div>
     </div>
   </div>
