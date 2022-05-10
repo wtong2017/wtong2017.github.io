@@ -1,0 +1,13 @@
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        {{ with .Site.GetPage "section" "about" }}
+        <h2 class="text-center">
+          <i class="fa-solid fa-user"></i> {{ .Title }}
+        </h2>
+        {{ .Content }} {{end}}
+      </div>
+    </div>
+  </div>
+</section>

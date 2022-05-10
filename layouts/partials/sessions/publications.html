@@ -1,0 +1,38 @@
+<section id="publications" class="bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        {{ with .Site.GetPage "section" "publications" }}
+        <h2 class="text-center">
+          <i class="fa-solid fa-scroll"></i> {{.Title}}
+        </h2>
+
+        {{ range .Pages }}
+        <div class="row pb-3">
+          <div class="col-md-4">
+            <img
+              class="img-fluid img-thumbnail rounded mx-auto d-block"
+              src="{{.Params.imgSrc}}"
+              alt="image"
+            />
+          </div>
+          <div class="col-md-8">
+            <div>
+              <a href="{{.Params.link}}" target="blank"
+                ><b>{{.Params.paperTitle}}</b></a
+              >
+            </div>
+            <div>{{ $lower_website_author := lower .Site.Params.author }}{{range $i, $author := (split .Params.authors ",")}}{{ $lower_author := lower (trim $author " ") }}{{ if ne $i 0 }}, {{end}}{{ if in $lower_author $lower_website_author }}<b>{{(trim $author " ")}}</b>{{else}}{{(trim $author " ")}}{{end}}{{end}}</div>
+            {{ if .Params.authorsNote}}
+            <small>(*: equal contribution)</small>
+            {{end}}
+            <div>
+              <div><i>{{.Params.conference}}</i>, {{.Params.year}}</div>
+            </div>
+          </div>
+        </div>
+        {{end}} {{end}}
+      </div>
+    </div>
+  </div>
+</section>
