@@ -1,0 +1,40 @@
+<section id="projects">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        {{ with .Site.GetPage "section" "projects" }}
+        <h2 class="text-center">
+          <i class="fa-solid fa-screwdriver-wrench"></i> {{ .Title }}
+        </h2>
+        {{ range .Pages }}
+        <div class="row pb-3">
+          <div class="col-md-4">
+            {{ if .Params.videoSrc }}
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src="{{.Params.videoSrc}}"
+                allowfullscreen
+              ></iframe>
+            </div>
+            {{else}}
+            <img
+              class="img-fluid img-thumbnail rounded mx-auto d-block"
+              src="{{.Params.imgSrc}}"
+              alt="image"
+            />
+            {{end}}
+          </div>
+          <div class="col-md-8">
+            <div>
+              <a href="{{.Params.link}}" target="blank"><h4>{{.Title}}</h4></a>
+            </div>
+            <div style="text-align: justify;">{{.Content}}</div>
+            <div>{{.Params.position}}, {{.Params.period}}</div>
+          </div>
+        </div>
+        {{ end }} {{end}}
+      </div>
+    </div>
+  </div>
+</section>

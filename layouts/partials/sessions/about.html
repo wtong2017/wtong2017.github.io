@@ -2,32 +2,11 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto">
-        <h2 class="text-center"><i class="fa-solid fa-user"></i> About me</h2>
-        <p class="lead text-justify">
-          I am currently a PhD candidate in Computer Science under the
-          supervision of
-          <a href="http://huamin.org/" target="_blank">Prof. Huamin Qu</a> and
-          <a
-            href="https://seng.hkust.edu.hk/about/people/faculty/ting-chuen-pong"
-            target="_blank"
-            >Prof. Ting Chuen Pong</a
-          >
-          at the
-          <a href="https://www.ust.hk/" target="_blank"
-            >Hong Kong University of Science and Technology (HKUST)</a
-          >. I am also one of the core member in
-          <a href="https://pulse.ust.hk">Pulse</a> and
-          <a href="http://vis.cse.ust.hk/groups/xr-vis/people/" target="_blank"
-            >AR/VR group</a
-          >
-          of <a href="http://vis.cse.ust.hk/" target="_blank">VisLab</a>. I love
-          music and playing board games and video games.
-        </p>
-        <p class="lead text-justify">
-          My research areas are VR/AR, data visualization and human computer
-          interaction. My Curriculum Vitae could be found
-          <a href="./cv.pdf" target="blank">here</a>.
-        </p>
+        {{ with .Site.GetPage "section" "about" }}
+        <h2 class="text-center">
+          <i class="fa-solid fa-user"></i> {{ .Title }}
+        </h2>
+        {{ .Content }} {{end}}
       </div>
     </div>
   </div>
