@@ -1,0 +1,7 @@
+/* #profile-img {
+    border-radius: 50%;
+} */
+
+.container img {
+    max-height: 200px;
+}
