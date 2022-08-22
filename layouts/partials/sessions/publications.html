@@ -31,11 +31,24 @@
               >{{else}}{{(trim $author " ")}}{{end}}{{end}}
             </div>
             {{ if .Params.authorsNote}}
-            <small>(*: equal contribution)</small>
+            <small>{{.Params.authorsNote}}</small>
             {{end}}
+            <div><i>{{.Params.conference}}</i>, {{.Params.year}}</div>
+            {{ if .Params.award }}
+            <div><strong>{{.Params.award}}</strong></div>
+            {{end}}
+            <br />
+            {{ if .Params.github }}
             <div>
-              <div><i>{{.Params.conference}}</i>, {{.Params.year}}</div>
+              <a
+                href="{{.Params.github}}"
+                target="blank"
+                style="text-decoration: none"
+              >
+                <i class="fab fa-github"></i>
+              </a>
             </div>
+            {{end}}
           </div>
         </div>
         {{end}} {{end}}

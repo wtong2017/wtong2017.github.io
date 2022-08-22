@@ -2,12 +2,13 @@
 title: "{{ replace .Name "-" " " | title }}"
 paperTitle: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+draft: false
 conference:
 year:
 authors: 
-authorsNotes:
+authorsNote:
 link:
 imgSrc: 
+award:
 ---
 
