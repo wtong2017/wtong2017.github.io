@@ -2,11 +2,11 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto">
-        {{ with .Site.GetPage "section" "about" }}
-        <h2 class="text-center pb-2">{{ .Title }}</h2>
+        <!-- <h2 class="text-center pb-2">{{ .Title }}</h2> -->
         <div class="row">
+          {{ with .Site.GetPage "section" "about" }}
           <div
-            class="col-lg-4 mx-auto d-flex flex-column justify-content-center text-center"
+            class="col-lg-3 mx-auto d-flex flex-column justify-content-center text-center"
           >
             <img
               src="img/personal.png"
@@ -33,11 +33,35 @@
               ></a>
             </div>
           </div>
-          <div class="col-lg-8 mx-auto">
+          <div class="col-lg-6 mx-auto">
             <div style="text-align: justify">{{ .Content }}</div>
           </div>
+          {{end}} 
+          
+          {{ with .Site.GetPage "section" "news" }}
+          <div class="col-lg-3 mx-auto" style="overflow: auto; height: 350px;">
+            <h5>{{.Title}}</h5>
+            {{ range (sort .Pages ".Params.eventDate" "desc")}}
+            <div class="row">
+              <div class="col-2">
+                {{ if .Params.highlight }}
+                <!-- {{ ":star:" | emojify}} -->
+                {{ ":tada:" | emojify}}
+                {{ else }}
+                <i class="fa-regular fa-calendar-alt fa-lg"></i>
+                {{end}}
+                
+              </div>
+              <div class="col-10">
+                <span>{{ with .Params.content }}{{ . | markdownify }}{{ end }}</span>
+
+                <div class="text-muted
+                  small">{{.Params.eventDate}}</div>
+              </div>
+            </div>
+            {{end}}
+          {{end}}
         </div>
-        {{end}}
       </div>
     </div>
   </div>
