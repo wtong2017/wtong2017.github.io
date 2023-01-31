@@ -9,5 +9,6 @@ authors: Wai Tong*, Haotian Li*, Huan Wei*, Liwenhan Xie*, Yanna Lin*, Huamin Qu
 authorsNote: "(*: equal contribution)"
 link: https://ieeexplore.ieee.org/document/9757646
 imgSrc: img/vr2022.png
+video: https://www.youtube.com/watch?v=-nz2LG7Gzio
 ---
 

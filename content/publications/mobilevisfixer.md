@@ -8,5 +8,6 @@ year: 2020
 authors: Aoyu Wu, Wai Tong, Tim Dwyer, Bongshin Lee, Petra Isenberg, Huamin Qu
 link: https://ieeexplore.ieee.org/abstract/document/9229072
 imgSrc: img/vis2020.png
+video: https://www.youtube.com/watch?v=7vJkxLGdRBU
 ---
 

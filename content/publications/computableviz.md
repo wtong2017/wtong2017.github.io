@@ -8,5 +8,7 @@ year: 2022
 authors: Aoyu Wu, Wai Tong, Haotian Li, Dominik Moritz, Yong Wang, Huamin Qu
 link: https://dl.acm.org/doi/abs/10.1145/3491102.3517618
 imgSrc: img/chi2022.png
+github: https://github.com/wowjyu/ComputableViz
+video: https://www.youtube.com/watch?v=NQXaIwgHePM
 ---
 

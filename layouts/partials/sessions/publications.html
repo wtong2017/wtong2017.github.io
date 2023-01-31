@@ -37,17 +37,30 @@
             {{ if .Params.award }}
             <div><strong>{{.Params.award}}</strong></div>
             {{end}}
-            {{ if .Params.github }}
-            <div>
-              <a
-                href="{{.Params.github}}"
-                target="blank"
-                style="text-decoration: none"
-              >
-                <i class="fab fa-github"></i>
-              </a>
+
+            <div style="display: flex; flex-direction: row; gap: 10px;">
+              {{ if .Params.video }}
+              <div>
+                <a
+                  href="{{.Params.video}}"
+                  target="blank"
+                  style="text-decoration: none"
+                >
+                  <i class="fas fa-video"></i>
+                </a>
+              </div>
+              {{end}} {{ if .Params.github }}
+              <div>
+                <a
+                  href="{{.Params.github}}"
+                  target="blank"
+                  style="text-decoration: none"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+              {{end}}
             </div>
-            {{end}}
           </div>
         </div>
         {{end}} {{end}}
