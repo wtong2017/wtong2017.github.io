@@ -2,7 +2,7 @@
 title: "Pvis2023datavideo"
 paperTitle: "Understanding 3D Data Videos: From Screens to Virtual Reality"
 date: 2023-02-03T21:55:35+08:00
-draft: true
+draft: false
 conference: IEEE Pacific Visualization Symposium (PacificVis)
 year: 2023
 authors: Leni Yang, Aoyu Wu, Wai Tong, Xian Xu, Zheng Wei, Huamin Qu

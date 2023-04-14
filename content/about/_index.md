@@ -10,4 +10,4 @@ My research interests lie in the area of VR/AR, Data visualization, and Human–
 
 I am one of the core member in both [Pulse of HKUST](https://pulse.ust.hk) and [XR-Vis group](http://vis.cse.ust.hk/groups/xr-vis) of [VisLab](http://vis.cse.ust.hk). I love music and playing board games and video games.
 
-My Curriculum Vitae could be found [here](/cv.pdf). **I am also looking for internship opportunities for summer 2023. Please feel free to contact me if you have any questions.**
+My Curriculum Vitae could be found [here](/cv.pdf). **I am also looking for research scientist or faculty position from fall 2024. Please feel free to contact me if you have any questions.**
