@@ -1,61 +1,66 @@
 <section id="about" class="first">
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 mx-auto">
+      <div class="col mx-auto">
         <!-- <h2 class="text-center pb-2">{{ .Title }}</h2> -->
         <div class="row">
           {{ with .Site.GetPage "section" "about" }}
-          <div
-            class="col-lg-3 mx-auto d-flex flex-column justify-content-center text-center"
-          >
-            <img
-              src="img/personal.jpeg"
-              alt="personal image"
-              class="img-thumbnail"
-            />
-            <h4 class="mt-2">{{.Site.Params.author}}</h4>
-            <div>{{.Site.Params.title}}@{{.Site.Params.university}}</div>
-            <div class="mt-2 text-center">
-              <a href="https://github.com/wtong2017" class="px-1"
-                ><i class="fa-brands fa-github fa-lg"></i
-              ></a>
-              <a href="https://twitter.com/wtong2021" class="px-1"
-                ><i class="fa-brands fa-twitter fa-lg"></i
-              ></a>
-              <a href="https://www.facebook.com/jackietong2011" class="px-1"
-                ><i class="fa-brands fa-facebook fa-lg"></i
-              ></a>
-              <a
-                href="https://www.linkedin.com/in/wai-tong-0624211b2"
-                class="px-1"
-                ><i class="fa-brands fa-linkedin fa-lg"></i
-              ></a>
+          <div class="col-lg-9 mx-auto d-flex align-items-start flex-row">
+            <div
+              class="mx-auto d-flex flex-column justify-content-center text-center px-3"
+            >
+              <img
+                src="img/personal.jpeg"
+                alt="personal image"
+                class="img-thumbnail flex-shrink-0"
+              />
+              <h4 class="mt-2">{{.Site.Params.author}}</h4>
+              <div>{{.Site.Params.title}}@{{.Site.Params.university}}</div>
+              <div class="mt-2 text-center nodecoration">
+                <a href="/cv.pdf" class="px-1" target="_blank"
+                  ><strong>CV</strong></a>
+                <a href="https://github.com/wtong2017" class="px-1" target="_blank"
+                  ><i class="fa-brands fa-github fa-lg"></i
+                ></a>
+                <a href="https://twitter.com/wtong2021" class="px-1" target="_blank"
+                  ><i class="fa-brands fa-twitter fa-lg"></i
+                ></a>
+                <a href="https://www.facebook.com/jackietong2011" class="px-1" target="_blank"
+                  ><i class="fa-brands fa-facebook fa-lg"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/wai-tong-0624211b2"
+                  class="px-1" target="_blank"
+                  ><i class="fa-brands fa-linkedin fa-lg"></i
+                ></a>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-6 mx-auto">
-            <div style="text-align: justify">{{ .Content }}</div>
+            <div>
+              <div style="text-align: justify">{{ .Content }}</div>
+            </div>
           </div>
           {{end}} 
           
           {{ with .Site.GetPage "section" "news" }}
-          <div class="col-lg-3 mx-auto" style="overflow: auto; height: 350px;">
+          <div class="col-lg-3 mx-auto" style="overflow: auto; height: 400px;">
             <h5>{{.Title}}</h5>
             {{ range (sort .Pages ".Params.eventDate" "desc")}}
             <div class="row">
-              <div class="col-2">
-                {{ if .Params.highlight }}
+              <div class="col d-flex d-row">
+                <div class="px-2">
+                  {{ if .Params.highlight }}
                 <!-- {{ ":star:" | emojify}} -->
                 {{ ":tada:" | emojify}}
                 {{ else }}
                 <i class="fa-regular fa-calendar-alt fa-lg"></i>
                 {{end}}
-                
-              </div>
-              <div class="col-10">
-                <span>{{ with .Params.content }}{{ . | markdownify }}{{ end }}</span>
-
-                <div class="text-muted
-                  small">{{.Params.eventDate}}</div>
+                </div>
+                <div>
+                  <span>{{ with .Params.content }}{{ . | markdownify }}{{ end }}</span>
+  
+                  <div class="text-muted
+                    small">{{.Params.eventDate}}</div>
+                </div>
               </div>
             </div>
             {{end}}
