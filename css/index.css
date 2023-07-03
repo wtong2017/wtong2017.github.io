@@ -17,9 +17,29 @@
 }
 
 a {
-  color: #0a58ca;;
+  color: #2672e5;
 }
 
 a:hover {
-  color: #084298;
+  color: #0d408d;
+}
+
+.nodecoration a:hover {
+  text-decoration: none;
+}
+
+.nodecoration a:visited {
+  text-decoration: none;
+}
+
+.nodecoration a:active {
+  text-decoration: none;
+}
+
+.nodecoration a {
+  text-decoration: none;
+}
+
+.nodecoration a:link {
+  text-decoration: none;
 }
