@@ -7,7 +7,7 @@ conference: IEEE Pacific Visualization Symposium (PacificVis)
 year: 2023
 authors: Leni Yang, Aoyu Wu, Wai Tong, Xian Xu, Zheng Wei, Huamin Qu
 authorsNote:
-link:
+link: https://ieeexplore.ieee.org/document/10148393
 imgSrc: img/pvis2023.png
 award:
 ---

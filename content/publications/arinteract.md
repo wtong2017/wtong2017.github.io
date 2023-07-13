@@ -10,4 +10,5 @@ authorsNote:
 link: https://doi.org/10.1109/TVCG.2022.3209386
 imgSrc: img/vis2022.jpg
 award: IEEE VIS 2022 Honorable Mention Award
+video: https://youtu.be/ZLV3XKpjsBs
 ---

@@ -7,8 +7,9 @@ conference: IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts 
 year: 2023
 authors: Xian Xu, Wai Tong, Zheng Wei, Meng Xia, Lik-Hang Lee, Huamin Qu
 authorsNote:
-link:
+link: https://ieeexplore.ieee.org/document/10108863
 imgSrc: img/vrw2023.jpeg
 award:
+video: https://www.youtube.com/watch?v=ZV7VXiGq9zg
 ---
 
