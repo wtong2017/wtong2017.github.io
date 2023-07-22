@@ -43,3 +43,62 @@ a:hover {
 .nodecoration a:link {
   text-decoration: none;
 }
+
+.publication-type {
+  font-size: 0.7em;
+  /* border-width: 1px;
+  border-style: solid;
+  border-color: black; */
+  border-radius: 2px;
+  padding: 0.2em;
+}
+
+.poster {
+  background-color: #90adda;
+  color: white;
+}
+
+.conference {
+  background-color: #2672e5;
+  color: white;
+}
+
+.journal {
+  background-color: #0d408d;
+  color: white;
+}
+
+.arvr {
+  background-color: black;
+  color: white;
+}
+
+.sustainability {
+  background-color: green;
+  color: white;
+}
+
+.ai4vis {
+  background-color: #2672e5;
+  color: white;
+}
+
+.collaboration {
+  background-color: orange;
+  color: white;
+}
+
+.storytelling {
+  background-color: yellow;
+  color: black;
+}
+
+.education {
+  background-color: greenyellow;
+  color: black;
+}
+
+.data-visualization {
+  background-image: linear-gradient(to right, #0055c3 0%, #9dd4ff 100%);
+  color: white;
+}

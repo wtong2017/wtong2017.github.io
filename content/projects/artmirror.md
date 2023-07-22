@@ -9,6 +9,4 @@ videoSrc:
 link: https://github.com/metaartmirror/artmirror
 ---
 
-[**Art Mirror**](https://github.com/metaartmirror/artmirror) is a VR soundstage for teachers and students to emulate cinematography lighting in virtual scenarios.
-
-<!-- Lighting education is a foundational component of cinematography education. However, many art schools do not have expensive soundstages for traditional cinematography lessons. Thus, migrating physical setups to virtual experiences is a potential solution driven by metaverse initiatives.  -->
+[**Art Mirror**](https://github.com/metaartmirror/artmirror) is a VR soundstage for teachers and students to emulate cinematography lighting in virtual scenarios. Lighting education is a foundational component of cinematography education. However, many art schools do not have expensive soundstages for traditional cinematography lessons. Thus, migrating physical setups to virtual experiences is a potential solution driven by metaverse initiatives. *This project is also presented in the poster session of IEEE VRW 2023.*

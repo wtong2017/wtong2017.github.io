@@ -10,5 +10,9 @@ authorsNote: "(*: equal contribution)"
 link: https://ieeexplore.ieee.org/document/9757646
 imgSrc: img/vrw2022.png
 video: https://www.youtube.com/watch?v=-nz2LG7Gzio
+publication_types:
+- poster
+publication_categories:
+- AR/VR
 ---
 

@@ -5,3 +5,9 @@ title = "Wai TONG's Personal Website"
     author = 'Wai TONG'
     title = "Ph.D. Candidate"
     university = "HKUST"
+[taxonomies]
+    publication_type = "publication_types"
+    conference = "conferences"
+    publication_tag = "publication_tags"
+    author = "authors"
+    publication_category = "publication_categories"

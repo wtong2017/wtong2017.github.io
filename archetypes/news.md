@@ -4,5 +4,5 @@ date: {{ .Date }}
 draft: false
 highlight: false
 content: {{ .Name }}
-eventDate: {{ .Date }}
+eventDate: {{ index (split .Date "T") 0 }}
 ---

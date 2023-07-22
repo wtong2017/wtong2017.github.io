@@ -1,0 +1,6 @@
+{{ with .GetTerms "authors" }}
+    {{ range $k, $_ := . -}}
+      {{ if $k }}, {{ end }}
+      {{ if .Params.me }}<strong>{{ .Title }}</strong>{{ else }}{{ .Title }}{{ end }}
+    {{- end }}
+{{ end }}

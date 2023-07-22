@@ -10,7 +10,7 @@
           <div class="col-md-4">
             <img
               class="img-fluid img-thumbnail rounded mx-auto d-block"
-              src="{{.Params.imgSrc}}"
+              src="{{ if .Params.imgSrc}} {{.Params.imgSrc}} {{else}} /img/placeholder.png {{end}}"
               alt="image"
             />
           </div>
@@ -23,22 +23,21 @@
                 >{{.Params.paperTitle}}</a
               >
             </div>
-            <div>
-              {{ $lower_website_author := lower .Site.Params.author }}{{range
-              $i, $author := (split .Params.authors ",")}}{{ $lower_author :=
-              lower (trim $author " ") }}{{ if ne $i 0 }}, {{end}}{{ if in
-              $lower_author $lower_website_author }}<b>{{(trim $author " ")}}</b
-              >{{else}}{{(trim $author " ")}}{{end}}{{end}}
-            </div>
+            <div>{{ partial "author-list.html" . }}</div>
             {{ if .Params.authorsNote}}
             <small>{{.Params.authorsNote}}</small>
-            {{end}}
-            <div><i>{{.Params.conference}}</i>, {{.Params.year}}</div>
+            {{end}} {{ $publication_type := index .Params.publication_types 0 }}
+            <div>
+              <span class="publication-type {{$publication_type}}"
+                >{{$publication_type | title }}</span
+              >
+              <i>{{.Params.conference}}</i>, {{.Params.year}}
+            </div>
             {{ if .Params.award }}
             <div><strong>{{.Params.award}}</strong></div>
             {{end}}
 
-            <div style="display: flex; flex-direction: row; gap: 10px;">
+            <div style="display: flex; flex-direction: row; gap: 10px">
               {{ if .Params.video }}
               <div>
                 <a
@@ -61,6 +60,12 @@
               </div>
               {{end}}
             </div>
+
+            <!-- <div>
+            {{ with .Params.publication_categories }} {{ range $k, $cat := . -}}
+              <span class="badge {{$cat | anchorize}} rounded-pill">{{$cat}}</span>
+              {{ end }} {{ end }}
+            </div> -->
           </div>
         </div>
         {{end}} {{end}}
