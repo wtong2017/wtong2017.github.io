@@ -8,12 +8,12 @@
         <div class="row pb-3">
           <div class="col-md-4">
             {{ if .Params.videoSrc }}
-            <div class="ratio ratio-16x9">
+            <div class="ratio ratio-16x9 shadow-sm">
               <iframe src="{{.Params.videoSrc}}" allowfullscreen></iframe>
             </div>
             {{else}}
             <img
-              class="img-fluid img-thumbnail rounded mx-auto d-block"
+              class="img-fluid img-thumbnail rounded mx-auto d-block shadow-sm"
               src="{{if .Params.imgSrc }}{{.Params.imgSrc}}{{else}}/img/placeholder.png{{end}}"
               alt="image"
             />

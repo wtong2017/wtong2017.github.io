@@ -5,11 +5,12 @@
         <!-- <h2 class="text-center pb-2">{{ .Title }}</h2> -->
         <div class="row">
           {{ with .Site.GetPage "section" "about" }}
-          <div class="col-lg-9 mx-auto d-flex align-items-start flex-row">
+          <div class="col-lg-3 mx-auto d-flex align-items-start flex-row">
             <div
-              class="mx-auto d-flex flex-column justify-content-center text-center px-3"
+              class="mx-auto d-flex flex-column justify-content-center text-center"
             >
               <img
+                style="object-fit: cover; max-width: 225px;"
                 src="img/personal.jpeg"
                 alt="personal image"
                 class="img-thumbnail flex-shrink-0"
@@ -35,6 +36,8 @@
                 ></a>
               </div>
             </div>
+            </div>
+            <div class="col-lg-6">
             <div>
               <div style="text-align: justify">{{ .Content }}</div>
             </div>
@@ -42,28 +45,32 @@
           {{end}} 
           
           {{ with .Site.GetPage "section" "news" }}
-          <div class="col-lg-3 mx-auto" style="overflow: auto; height: 400px;">
-            <h5>{{.Title}}</h5>
-            {{ range (sort .Pages ".Params.eventDate" "desc")}}
-            <div class="row">
-              <div class="col d-flex d-row">
-                <div class="px-2">
-                  {{ if .Params.highlight }}
-                <!-- {{ ":star:" | emojify}} -->
-                {{ ":tada:" | emojify}}
-                {{ else }}
-                <i class="fa-regular fa-calendar-alt fa-lg"></i>
+          <div class="col-lg-3">
+            <div class="card shadow-sm">
+              <div class="card-header">{{.Title}}</div>
+              <div class="card-body" style="overflow: auto; height: 350px;">
+                {{ range (sort .Pages ".Params.eventDate" "desc")}}
+                <div class="row">
+                  <div class="col d-flex d-row">
+                    <div class="pe-2">
+                      {{ if .Params.highlight }}
+                    <!-- {{ ":star:" | emojify}} -->
+                    {{ ":tada:" | emojify}}
+                    {{ else }}
+                    <i class="fa-regular fa-calendar-alt fa-lg"></i>
+                    {{end}}
+                    </div>
+                    <div>
+                      <span>{{ with .Params.content }}{{ . | markdownify }}{{ end }}</span>
+      
+                      <div class="text-muted
+                        small">{{.Params.eventDate}}</div>
+                    </div>
+                  </div>
+                </div>
                 {{end}}
-                </div>
-                <div>
-                  <span>{{ with .Params.content }}{{ . | markdownify }}{{ end }}</span>
-  
-                  <div class="text-muted
-                    small">{{.Params.eventDate}}</div>
-                </div>
               </div>
             </div>
-            {{end}}
           {{end}}
         </div>
       </div>
