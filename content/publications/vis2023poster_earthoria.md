@@ -14,7 +14,7 @@ authors:
 - Huamin Qu
 authorsNote:
 link:
-imgSrc: 
+imgSrc: img/vis2023poster_earthoria.png
 award:
 publication_types:
 - poster

@@ -12,7 +12,7 @@ authors:
 - Huamin Qu
 authorsNote:
 link:
-imgSrc: 
+imgSrc: img/vis2023poster_timewalk.png
 award:
 publication_types:
 - poster
