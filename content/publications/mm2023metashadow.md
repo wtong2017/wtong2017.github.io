@@ -13,7 +13,7 @@ authors:
 - Huamin Qu
 - Pan Hui
 authorsNote:
-link:
+link: https://doi.org/10.1145/3581783.3612580
 imgSrc: img/mm2023.png
 award:
 publication_types:
