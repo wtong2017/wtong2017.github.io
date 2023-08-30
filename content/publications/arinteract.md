@@ -23,4 +23,5 @@ publication_types:
 publication_categories:
 - Data Visualization
 - AR/VR
+extra: Invited to present at ACM SIGGRAPG Asia 2022
 ---

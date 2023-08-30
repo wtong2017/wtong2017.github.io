@@ -25,5 +25,6 @@ publication_categories:
 - Data Visualization
 - AR/VR
 - Collaboration
+extra: Invited to present at IEEE VIS 2023
 ---
 

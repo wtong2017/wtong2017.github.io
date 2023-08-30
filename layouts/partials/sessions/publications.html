@@ -31,10 +31,13 @@
               <span class="publication-type {{$publication_type}}"
                 >{{$publication_type | title }}</span
               >
-              <i>{{.Params.conference}}</i>, {{.Params.year}}
+              {{.Params.conference}}, {{.Params.year}}
             </div>
             {{ if .Params.award }}
             <div><strong>{{.Params.award}}</strong></div>
+            {{end}}
+            {{ if .Params.extra }}
+            <div><i>{{.Params.extra}}</i></div>
             {{end}}
 
             <div style="display: flex; flex-direction: row; gap: 10px">

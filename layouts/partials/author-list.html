@@ -1,6 +1,7 @@
+{{ $authorEqual := .Params.authorsEqual }}
 {{ with .GetTerms "authors" }}
     {{ range $k, $_ := . -}}
       {{ if $k }}, {{ end }}
-      {{ if .Params.me }}<strong>{{ .Title }}</strong>{{ else }}{{ .Title }}{{ end }}
+      {{ if .Params.me }}<strong>{{ .Title }}</strong>{{ else }}{{ .Title }}{{ end }}{{if in $authorEqual .Title}}*{{end}}
     {{- end }}
 {{ end }}

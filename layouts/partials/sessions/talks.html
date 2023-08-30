@@ -1,0 +1,22 @@
+<section id="talks" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col mx-auto">
+          {{ with .Site.GetPage "section" "talks" }}
+          <h2 class="text-center pb-2">{{.Title}}</h2>
+          <ul class="list-group list-group-flush">
+            {{ range .Pages }}
+            <li class="list-group-item d-flex align-items-center">
+              <div style="width: 150px">
+                {{if .Params.from}} {{.Params.from}}-{{end}}{{.Params.to}}
+              </div>
+              <div>{{.Params.name}}</div>
+            </li>
+            {{end}}
+          </ul>
+          {{end}}
+        </div>
+      </div>
+    </div>
+  </section>
+  
