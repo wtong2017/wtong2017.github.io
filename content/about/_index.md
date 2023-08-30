@@ -8,4 +8,4 @@ I am a final year Ph.D. candidate in the department of Computer Science and Engi
 
 My research interests lie in the area of VR/AR, Data visualization, and Human–computer interaction. Specifically, I focus on bringing data visualization beyond traditional workspace (i.e., personal computer) to everyday life using AR/VR technology for more efficient and effective data exploration and analysis. I am one of the core member in both [Pulse of HKUST](https://pulse.ust.hk) and [XR-Vis group](http://vis.cse.ust.hk/groups/xr-vis) of [VisLab](http://vis.cse.ust.hk).
 
-I am excited to defend my thesis, entitled *"Towards Effective Data Visualization by Fusing Immersive Technology into Traditional Workflow"*, on August 18, 2023! **I am also looking for a research scientist or faculty position from fall 2024. Please feel free to contact me if you have any questions.**
+I have defended my thesis, entitled *"Towards Effective Data Visualization by Fusing Immersive Technology with Traditional Workflow"*, on August 18, 2023! **I am looking for a research scientist or faculty position from fall 2024. Please feel free to contact me if you have any questions.**
