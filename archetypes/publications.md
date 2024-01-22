@@ -11,7 +11,6 @@ link:
 imgSrc: 
 award:
 publication_types:
-publication_tags:
 publication_categories:
 ---
 
