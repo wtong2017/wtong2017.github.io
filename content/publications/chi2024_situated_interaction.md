@@ -6,20 +6,19 @@ draft: false
 conference: ACM Conference on Human Factors in Computing Systems (CHI)
 year: 2024
 authors:
-- Qian Zhu
-- Zhuo Wang
-- Wei Zeng
-- Wai Tong
-- Weiyue Lin
-- Xiaojuan Ma
-authorsNote: Conditionally accepted
-link:
+  - Qian Zhu
+  - Zhuo Wang
+  - Wei Zeng
+  - Wai Tong
+  - Weiyue Lin
+  - Xiaojuan Ma
+authorsNote:
+link: https://arxiv.org/abs/2402.14251
 imgSrc: img/chi2024_situated_interaction.png
 award:
 publication_types:
-- conference
+  - conference
 publication_categories:
-- Data Visualization
-- AR/VR
+  - Data Visualization
+  - AR/VR
 ---
-

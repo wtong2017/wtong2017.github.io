@@ -6,22 +6,21 @@ draft: false
 conference: ACM Conference on Human Factors in Computing Systems (CHI)
 year: 2024
 authors:
-- Xiaofu Jin
-- Wai Tong
-- Xiaoying Wei
-- Xian Wang
-- Emily Kuang
-- Xiaoyu Mo
-- Huamin Qu
-- Mingming Fan
-authorsNote: Conditionally accepted
-link:
+  - Xiaofu Jin
+  - Wai Tong
+  - Xiaoying Wei
+  - Xian Wang
+  - Emily Kuang
+  - Xiaoyu Mo
+  - Huamin Qu
+  - Mingming Fan
+authorsNote:
+link: https://arxiv.org/abs/2402.04991
 imgSrc: img/chi2024_elderly_ar.png
 award:
 publication_types:
-- conference
+  - conference
 publication_categories:
-- AR/VR
-- Assessibility
+  - AR/VR
+  - Assessibility
 ---
-
