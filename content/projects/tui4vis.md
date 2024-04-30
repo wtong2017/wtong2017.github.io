@@ -3,9 +3,9 @@ title: "Augmenting Situated Visualizations with Tangible User Interfaces"
 date: 2023-07-22T12:29:38+08:00
 draft: false
 position: Researcher
-period: 07/2023 - Present
+period: Proposal
 imgSrc:
-videoSrc: 
+videoSrc:
 link:
 ---
 

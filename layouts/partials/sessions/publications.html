@@ -62,6 +62,17 @@
                 </a>
               </div>
               {{end}}
+              {{ with .Params.doi }}
+              <div>
+                <a
+                  href="https://doi.org/{{.}}"
+                  target="blank"
+                  style="text-decoration: none"
+                >
+                 <i class="ai ai-doi"></i>
+                </a>
+              </div>
+              {{end}}
             </div>
 
             <!-- <div>

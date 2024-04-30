@@ -6,21 +6,21 @@ draft: false
 conference: IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)
 year: 2023
 authors:
-- Xian Xu
-- Wai Tong
-- Zheng Wei
-- Meng Xia
-- Lik-Hang Lee
-- Huamin Qu
+  - Xian Xu
+  - Wai Tong
+  - Zheng Wei
+  - Meng Xia
+  - Lik-Hang Lee
+  - Huamin Qu
 authorsNote:
 link: https://ieeexplore.ieee.org/document/10108863
+doi: 10.1109/VRW58643.2023.00128
 imgSrc: img/vrw2023.jpeg
 award:
 video: https://www.youtube.com/watch?v=ZV7VXiGq9zg
 publication_types:
-- poster
+  - poster
 publication_categories:
-- AR/VR
-- Education
+  - AR/VR
+  - Education
 ---
-

@@ -29,7 +29,9 @@
               >
             </div> -->
             <div style="text-align: justify">{{.Content}}</div>
-            <div>{{.Params.position}}, {{.Params.period}}</div>
+            <div>
+              {{.Params.position}}{{ with .Params.period}}, {{.}}{{end}}
+            </div>
           </div>
         </div>
         {{ end }} {{end}}
