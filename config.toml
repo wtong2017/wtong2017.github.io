@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = "Wai TONG's Personal Website"
 [params]
     author = 'Wai TONG'
-    title = "Instructional Assistant Professor"
+    title = "Assistant Professor"
     university = "Texas A&M University"
 [taxonomies]
     publication_type = "publication_types"
