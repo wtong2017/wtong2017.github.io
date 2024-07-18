@@ -19,7 +19,7 @@ imgSrc: img/mm2023.png
 award:
 publication_types:
   - conference
-publication_tags:
 publication_categories:
   - AR/VR
+  - education
 ---
