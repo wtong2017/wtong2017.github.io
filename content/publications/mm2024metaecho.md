@@ -2,7 +2,7 @@
 title: "Mm24metaecho"
 paperTitle: "Hearing the Moment with MetaEcho! From Physical to Virtual in Synchronized Sound Recording"
 date: 2024-07-18T12:13:01-04:00
-draft: true
+draft: false
 conference: ACM International Conference on Multimedia (MM)
 year: 2024
 authors:
@@ -13,7 +13,7 @@ authors:
 - Huamin Qu
 - Xian Xu
 - Lik-Hang Lee
-authorsNote: to be presented
+authorsNote: to be appeared
 link:
 imgSrc: img/mm2024.png
 award:
