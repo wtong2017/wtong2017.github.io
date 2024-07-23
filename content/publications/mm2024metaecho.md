@@ -6,7 +6,7 @@ draft: false
 conference: ACM International Conference on Multimedia (MM)
 year: 2024
 authors:
-- Zheng WEI
+- Zheng Wei
 - Yuzheng Chen
 - Wai Tong
 - Xuan Zong
