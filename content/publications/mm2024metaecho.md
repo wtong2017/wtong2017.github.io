@@ -13,7 +13,7 @@ authors:
 - Huamin Qu
 - Xian Xu
 - Lik-Hang Lee
-authorsNote: to be appeared
+authorsNote: to appear
 link:
 imgSrc: img/mm2024.png
 award:
