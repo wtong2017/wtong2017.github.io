@@ -13,14 +13,15 @@ authors:
 - Huamin Qu
 - Xian Xu
 - Lik-Hang Lee
-authorsNote: to appear
-link:
+authorsNote:
+link: https://www.researchgate.net/publication/382887166_Hearing_the_Moment_with_MetaEcho_From_Physical_to_Virtual_in_Synchronized_Sound_Recording
 imgSrc: img/mm2024.png
 award:
 publication_types:
 - conference
 publication_categories:
 - AR/VR
-- education
+- Education
+- Cinematography
 ---
 

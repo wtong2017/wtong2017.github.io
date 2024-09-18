@@ -21,5 +21,6 @@ publication_types:
   - conference
 publication_categories:
   - AR/VR
-  - education
+  - Education
+  - Cinematography
 ---

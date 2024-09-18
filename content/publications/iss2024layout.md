@@ -11,8 +11,8 @@ authors:
 - Chris North
 - Huamin Qu
 - Yalong Yang
-authorsNote: to appear
-link:
+authorsNote:
+link: https://arxiv.org/abs/2408.05105
 imgSrc: img/iss2024.png
 award:
 publication_types:

@@ -14,6 +14,7 @@ authors:
   - Huamin Qu
   - Meng Xia
 authorsNote:
+video: https://www.youtube.com/watch?v=BmAY5irmbeA
 link: https://ieeexplore.ieee.org/document/10457053
 doi: 10.1109/TVCG.2024.3372104
 imgSrc: img/tvcg2024vistellar.jpg

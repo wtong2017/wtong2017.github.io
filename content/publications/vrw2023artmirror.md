@@ -23,4 +23,5 @@ publication_types:
 publication_categories:
   - AR/VR
   - Education
+  - Cinematography
 ---

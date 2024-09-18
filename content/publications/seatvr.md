@@ -27,4 +27,5 @@ publication_types:
   - poster
 publication_categories:
   - AR/VR
+  - Digital Twin
 ---

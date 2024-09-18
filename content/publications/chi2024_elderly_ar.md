@@ -15,7 +15,8 @@ authors:
   - Huamin Qu
   - Mingming Fan
 authorsNote:
-link: https://arxiv.org/abs/2402.04991
+link: https://dl.acm.org/doi/10.1145/3613904.3641901
+doi: 10.1145/3613904.3641901
 imgSrc: img/chi2024_elderly_ar.png
 award:
 publication_types:

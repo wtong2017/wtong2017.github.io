@@ -13,7 +13,8 @@ authors:
   - Weiyue Lin
   - Xiaojuan Ma
 authorsNote:
-link: https://arxiv.org/abs/2402.14251
+link: https://dl.acm.org/doi/10.1145/3613904.3642049
+doi: 10.1145/3613904.3642049
 imgSrc: img/chi2024_situated_interaction.png
 award:
 publication_types:
