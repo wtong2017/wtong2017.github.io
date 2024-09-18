@@ -12,6 +12,7 @@ authors:
 authorsNote:
 link:
 imgSrc: img/chi2024lbw_stage.png
+video: https://youtu.be/svWVJC6SDWI
 award:
 publication_types:
   - poster
