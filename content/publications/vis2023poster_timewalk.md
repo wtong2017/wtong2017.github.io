@@ -11,7 +11,7 @@ authors:
 - Zikai Wen
 - Huamin Qu
 authorsNote:
-link:
+link: pdf/vis2023poster_timewalk.pdf
 imgSrc: img/vis2023poster_timewalk.png
 award:
 publication_types:
