@@ -19,5 +19,7 @@ publication_types:
 - conference
 publication_categories:
 - AR/VR
+- Collaboration
+- Data Visualization
 ---
 
