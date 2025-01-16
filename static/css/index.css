@@ -102,3 +102,7 @@ a:hover {
   background-image: linear-gradient(to right, #0055c3 0%, #9dd4ff 100%);
   color: white;
 }
+
+table td, table td * {
+  vertical-align: top;
+}

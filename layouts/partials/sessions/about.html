@@ -49,26 +49,25 @@
             <div class="card shadow-sm">
               <div class="card-header">{{.Title}}</div>
               <div class="card-body" style="overflow: auto; height: 350px;">
+                <table>
                 {{ range (sort .Pages ".Params.eventDate" "desc")}}
-                <div class="row">
-                  <div class="col d-flex d-row">
-                    <div class="pe-2">
+                  <tr>
+                    <td>
                       {{ if .Params.highlight }}
                     <!-- {{ ":star:" | emojify}} -->
                     {{ ":tada:" | emojify}}
                     {{ else }}
                     <i class="fa-regular fa-calendar-alt fa-lg"></i>
                     {{end}}
-                    </div>
-                    <div>
+                    </td>
+                    <td>
                       <span>{{ with .Params.content }}{{ . | markdownify }}{{ end }}</span>
-
                       <div class="text-muted
                         small">{{.Params.eventDate}}</div>
-                    </div>
-                  </div>
-                </div>
-                {{end}}
+                    </td>
+                  </tr>
+                  {{end}}
+                </table>
               </div>
             </div>
           {{end}}
