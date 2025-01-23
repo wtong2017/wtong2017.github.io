@@ -55,13 +55,13 @@
                     <td>
                       {{ if .Params.highlight }}
                     <!-- {{ ":star:" | emojify}} -->
-                    {{ ":tada:" | emojify}}
+                    <div style="text-align: center;">{{ ":tada:" | emojify}}</div>
                     {{ else }}
                     <i class="fa-regular fa-calendar-alt fa-lg"></i>
                     {{end}}
                     </td>
                     <td>
-                      <span>{{ with .Params.content }}{{ . | markdownify }}{{ end }}</span>
+                      <div>{{ with .Params.content }}{{ . | markdownify }}{{ end }}</div>
                       <div class="text-muted
                         small">{{.Params.eventDate}}</div>
                     </td>
