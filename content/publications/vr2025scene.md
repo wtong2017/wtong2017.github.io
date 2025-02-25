@@ -18,7 +18,7 @@ authors:
 authorsNote:
 link:
 imgSrc: img/vr2025.png
-award:
+award: 🏆 IEEE VR 2025 Honorable Mention Award
 publication_types:
 - journal
 publication_categories:
