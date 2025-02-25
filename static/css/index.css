@@ -56,16 +56,25 @@ a:hover {
 .poster {
   background-color: #90adda;
   color: white;
+  vertical-align: middle;
 }
 
 .conference {
   background-color: #2672e5;
   color: white;
+  vertical-align: middle;
 }
 
 .journal {
   background-color: #0d408d;
   color: white;
+  vertical-align: middle;
+}
+
+.workshop {
+  background-color: azure;
+  color: black;
+  vertical-align: middle;
 }
 
 .arvr {
@@ -105,4 +114,6 @@ a:hover {
 
 table td, table td * {
   vertical-align: top;
+  padding-left: 2px;
+  padding-right: 2px;
 }

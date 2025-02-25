@@ -3,7 +3,7 @@ title: "Vr2025scene"
 paperTitle: "Illuminating the Scene: How Virtual Environments and Learning Modes Shape Film Lighting Mastery in Virtual Reality"
 date: 2025-01-16T14:26:10Z
 draft: false
-conference: IEEE Transactions on Visualization and Computer Graphics (TVCG)
+conference: IEEE Transactions on Visualization and Computer Graphics (TVCG) and IEEE Conference on Virtual Reality and 3D User Interfaces (VR)
 year: 2025
 authors: 
 - Zheng Wei
