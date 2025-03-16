@@ -3,7 +3,7 @@ title: "Vis2023workshop_echoes"
 paperTitle: "Echoes in the Gallery: A Collaborative Immersive Analytics System for Analyzing Audience Reactions in Virtual Reality Exhibitions"
 date: 2023-07-22T09:30:26+08:00
 draft: false
-conference: MERCADO Workshop @ IEEE Visualization Conference (VIS)
+conference: Multimodal Experiences for Remote Communication Around Data Online Workshop (MERCADO) @ IEEE Vis
 year: 2023
 authors: 
 - Linping Yuan
