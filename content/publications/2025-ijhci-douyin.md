@@ -14,13 +14,14 @@ authors:
 - Huamin Qu
 - Pan Hui
 authorsNote:
-link:
+doi: 10.1080/10447318.2025.2483856
+link: https://www.tandfonline.com/doi/full/10.1080/10447318.2025.2483856
 imgSrc: img/ijhci2025.png
 award:
 publication_types:
 - journal
 publication_categories:
-- Information Visualization
+- Data Visualization
 - Social Computing
 ---
 
