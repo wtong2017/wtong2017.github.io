@@ -12,5 +12,4 @@ I received my Ph.D. degree in the department of Computer Science and Engineering
 
 My research interests lie in the area of *AR/VR/MR*, *Data visualization*, and *Human–computer interaction*. Specifically, I focus on **bringing data visualization beyond traditional workspace (i.e., personal computer) to everyday life using AR/VR technology for more efficient and effective data exploration and analysis**.
 
-I am actively seeking **1-2 motivated and passionate PhD students** to join my research group starting from Fall 2025! If you are eager to engage in cutting-edge research about AR/VR, data visualization, and human-computer interaction, and ready to take on new challenges, I encourage you to reach out and explore this opportunity with me. **Please complete the [expression of interest form](https://forms.gle/z3ynVaXrZtsHTVqx8) if you are interested in joining my research lab.**
 Please also don't hesitate to contact me at wtong(at)tamu(dot)edu for any collaboration opportunities or inquiries.
