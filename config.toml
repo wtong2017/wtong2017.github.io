@@ -11,3 +11,6 @@ title = "Wai TONG's Personal Website"
     publication_tag = "publication_tags"
     author = "authors"
     publication_category = "publication_categories"
+[caches]
+    [caches.images]
+        dir = ':cacheDir/images'
