@@ -17,6 +17,7 @@ authorsNote:
 link: https://www.researchgate.net/publication/382887166_Hearing_the_Moment_with_MetaEcho_From_Physical_to_Virtual_in_Synchronized_Sound_Recording
 imgSrc: img/mm2024.png
 award:
+doi: 10.1145/3664647.3681004
 publication_types:
 - conference
 publication_categories:

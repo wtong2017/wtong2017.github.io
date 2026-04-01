@@ -16,6 +16,7 @@ authors:
 - Xian Xu
 authorsNote:
 link:
+doi: 10.1109/ISMAR67309.2025.00027
 imgSrc: img/ismar2025gaze.png
 award:
 publication_types:
