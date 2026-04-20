@@ -40,9 +40,21 @@
         <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
         </li>
+        <li class="nav-item">
+          <input type="search" id="searchBox" placeholder="Search..." aria-label="Search through site content" class="form-control">
+        </li>
       </ul>
     </div>
   </div>
 </nav>
 
 <div style="height: 56px"></div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const searchBox = document.getElementById('searchBox');
+    searchBox.addEventListener('input', function(e) {
+      // Placeholder for search functionality
+    });
+  });
+</script>
