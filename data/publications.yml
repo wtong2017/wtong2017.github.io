@@ -1,0 +1,593 @@
+- id: bridgevis2026
+  title: 'BridgeVis: Linking Quantitative Analysis and Qualitative Experience for
+    Data Visualization in Virtual Reality'
+  date: '2026-08-12T18:32:39-05:00'
+  year: 2026
+  authors:
+  - Yuxuan Guo
+  - Haowei Xiong
+  - Wai Tong
+  venue: Visual Informatics
+  url: https://www.sciencedirect.com/science/article/pii/S2468502X26000471
+  doi: 10.1016/j.visinf.2026.100351
+  image: bridgevis2026.jpg
+  type: journal
+  categories:
+  - Data Visualization
+  - AR/VR
+- id: pvis2026-landsar
+  title: 'LandSAR: Visceralizing Landslide Data for Enhanced Situational Awareness
+    in Immersive Analytics'
+  date: '2026-04-01T13:37:37-05:00'
+  year: 2026
+  authors:
+  - Kam-Kwai Wong
+  - Yi-Lin Ye
+  - Wai Tong
+  - Haobo Li
+  - Kentaro Takahira
+  - Aastha Bhatta
+  - Sunil Poudyal
+  - Charles Wang Wai Ng
+  - Huamin Qu
+  - Leni Yang
+  venue: IEEE Pacific Visualization Symposium (PacificVis)
+  url: https://ieeexplore.ieee.org/document/11558863
+  doi: 10.1109/PacificVis68791.2026.00030
+  image: pvis2026.png
+  type: conference
+  categories:
+  - AR/VR
+  - Data Visualization
+- id: vr2026-workload
+  title: 'When Effort Becomes Visible: Facet-Level Shifts in Evaluation and Workload
+    during VR Teamwork'
+  date: '2026-04-01T13:34:01-05:00'
+  year: 2026
+  authors:
+  - Zheng Wei
+  - Hyeonmin Lee
+  - Yawei Zhao
+  - Junxiang LIAO
+  - Hao Li
+  - Xian Xu
+  - Hayoung Oh
+  - Lik-Hang Lee
+  - Wai Tong
+  - Pan Hui
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG)
+  url: https://ieeexplore.ieee.org/document/11458679
+  doi: 10.1109/TVCG.2026.3679057
+  image: vr2026.png
+  type: journal
+  categories:
+  - AR/VR
+- id: ismar25gaze
+  title: 'Exploring Gaze Dynamics in VR Film Education: Gender, Avatar, and the Shift
+    Between Male and Female Perspectives'
+  date: '2025-07-25T23:33:59-05:00'
+  year: 2025
+  authors:
+  - Zheng Wei
+  - Jia Sun
+  - Junxiang Liao
+  - Lik-Hang Lee
+  - Pan Hui
+  - Huamin Qu
+  - Wai Tong
+  - Xian Xu
+  venue: IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
+  url: https://ieeexplore.ieee.org/document/11220380
+  doi: 10.1109/ISMAR67309.2025.00027
+  image: ismar2025gaze.png
+  type: conference
+  categories:
+  - Virtual Reality
+  - Education
+- id: 2025-ijhci-douyin
+  title: '"I Can''t Even Recall What I Bought": How Design Influences Impulsive Buying
+    in Douyin Live Sales'
+  date: '2025-03-13T21:03:03-05:00'
+  year: 2025
+  authors:
+  - Zheng Wei
+  - Lik-Hang Lee
+  - Wai Tong
+  - Xian Xu
+  - Chaozhe Zhang
+  - Huamin Qu
+  - Pan Hui
+  venue: International Journal of Human–Computer Interaction (IJHCI)
+  url: https://www.tandfonline.com/doi/full/10.1080/10447318.2025.2483856
+  doi: 10.1080/10447318.2025.2483856
+  image: ijhci2025.png
+  type: journal
+  categories:
+  - Data Visualization
+  - Social Computing
+- id: 2025-chi-artask
+  title: Exploring Pen and Paper Interaction for Task Management in AR
+  date: '2025-03-12T21:09:36-05:00'
+  year: 2025
+  authors:
+  - Wai Tong
+  - Xiaolin Ni
+  - Meng Xia
+  venue: International Workshop on XR Interactions within the Physical World (XR-Phy)
+    @ ACM CHI
+  url: https://sites.google.com/view/xr-phy-2025/accepted-papers
+  image: 2025-chi-artask.jpg
+  type: workshop
+  categories:
+  - AR/VR
+- id: tvcg2025spatialhybridvis
+  title: Exploring Spatial Hybrid User Interface for Visual Sensemaking
+  date: '2025-01-23T12:42:16-06:00'
+  year: 2025
+  authors:
+  - Wai Tong
+  - Haobo Li
+  - Meng Xia
+  - Kam Kwai Wong
+  - Ting-Chuen Pong
+  - Huamin Qu
+  - Yalong Yang
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG)
+  url: https://ieeexplore.ieee.org/document/10870571
+  doi: 10.1109/TVCG.2025.3538771
+  image: tvcg2025.png
+  type: journal
+  categories:
+  - Data Visualization
+  - AR/VR
+- id: vr2025scene
+  title: 'Illuminating the Scene: How Virtual Environments and Learning Modes Shape
+    Film Lighting Mastery in Virtual Reality'
+  date: '2025-01-16T14:26:10Z'
+  year: 2025
+  authors:
+  - Zheng Wei
+  - Jia Sun
+  - Junxiang Liao
+  - Lik-Hang Lee
+  - Chan In Devin Sio
+  - Pan Hui
+  - Huamin Qu
+  - Wai Tong
+  - Xian Xu
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG)
+  url: https://ieeexplore.ieee.org/document/10916813
+  doi: 10.1109/TVCG.2025.3549189
+  image: vr2025.png
+  award: "\U0001F3C6 IEEE VR 2025 Honorable Mention Award"
+  type: journal
+  categories:
+  - AR/VR
+  - Education
+  - Cinematography
+- id: 2024-vi-cinematography-edu
+  title: Transforming Cinematography Lighting Education in the Metaverse
+  date: '2024-11-30T01:08:32-06:00'
+  year: 2024
+  authors:
+  - Xian Xu
+  - Wai Tong
+  - Wei Zheng
+  - Meng Xia
+  - Lik-Hang Lee
+  - Huamin Qu
+  venue: Visual Informatics
+  url: https://www.sciencedirect.com/science/article/pii/S2468502X24000688
+  doi: 10.1016/j.visinf.2024.11.003
+  image: 2024-vi-cinematography-edu.jpg
+  type: journal
+  categories:
+  - AR/VR
+  - Education
+  - Cinematography
+- id: mm2024metaecho
+  title: Hearing the Moment with MetaEcho! From Physical to Virtual in Synchronized
+    Sound Recording
+  date: '2024-07-18T12:13:01-04:00'
+  year: 2024
+  authors:
+  - Zheng Wei
+  - Yuzheng Chen
+  - Wai Tong
+  - Xuan Zong
+  - Huamin Qu
+  - Xian Xu
+  - Lik-Hang Lee
+  venue: ACM International Conference on Multimedia (MM)
+  url: https://www.researchgate.net/publication/382887166_Hearing_the_Moment_with_MetaEcho_From_Physical_to_Virtual_in_Synchronized_Sound_Recording
+  doi: 10.1145/3664647.3681004
+  image: mm2024.png
+  type: conference
+  categories:
+  - AR/VR
+  - Education
+  - Cinematography
+- id: iss2024layout
+  title: Evaluating Layout Dimensionalities in PC+VR Asymmetric Collaborative Decision
+    Making
+  date: '2024-06-18T12:21:47-04:00'
+  year: 2024
+  authors:
+  - Daniel Enriquez
+  - Wai Tong
+  - Chris North
+  - Huamin Qu
+  - Yalong Yang
+  venue: ACM International Conference on Interactive Surfaces and Spaces (ISS)
+  url: https://dl.acm.org/doi/10.1145/3698130
+  doi: 10.1145/3698130
+  image: iss2024.png
+  type: conference
+  categories:
+  - AR/VR
+  - Collaboration
+  - Data Visualization
+- id: siggraph24poster_metacrew
+  title: 'Multi-Role VR Training System for Film Production: Enhancing Collaboration
+    with MetaCrew'
+  date: '2024-03-25T13:41:28-05:00'
+  year: 2024
+  authors:
+  - Zheng Wei
+  - Shan Jin
+  - Wai Tong
+  - David Kei Man Yip
+  - Pan Hui
+  - Xian Xu
+  venue: ACM SIGGRAPH
+  url: https://dl.acm.org/doi/abs/10.1145/3641234.3671022
+  doi: 10.1145/3641234.3671022
+  image: siggraph2024poster.png
+  type: poster
+  categories:
+  - AR/VR
+  - Cinematography
+  - Collaboration
+  - Education
+- id: tvcg2024vistellar
+  title: 'VisTellAR: Embedding Data Visualization to Short-form Videos Using Mobile
+    Augmented Reality'
+  date: '2024-03-04T03:26:08-06:00'
+  year: 2024
+  authors:
+  - Wai Tong
+  - Kento Shigyo
+  - Lingping Yuan
+  - Mingming Fan
+  - Ting-Chuen Pong
+  - Huamin Qu
+  - Meng Xia
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG)
+  url: https://ieeexplore.ieee.org/document/10457053
+  doi: 10.1109/TVCG.2024.3372104
+  image: tvcg2024vistellar.jpg
+  type: journal
+  categories:
+  - AR/VR
+  - Data Visualization
+  - Storytelling
+  video: https://www.youtube.com/watch?v=BmAY5irmbeA
+- id: chi2024lbw_stage
+  title: Exploring Stage Lighting Education in Metaverse
+  date: '2024-03-01T12:42:41-06:00'
+  year: 2024
+  authors:
+  - Wai Tong
+  - Meng Xia
+  - Huamin Qu
+  venue: ACM Conference on Human Factors in Computing Systems Late-Breaking Work (CHI
+    LBW)
+  url: https://dl.acm.org/doi/10.1145/3613905.3650924
+  doi: 10.1145/3613905.3650924
+  image: chi2024lbw_stage.png
+  type: poster
+  categories:
+  - AR/VR
+  - Education
+  video: https://youtu.be/svWVJC6SDWI
+- id: chi2024_situated_interaction
+  title: 'Make Interaction Situated: Designing User Acceptable Interaction for Situated
+    Visualization in Public Environments'
+  date: '2024-01-22T12:42:51-06:00'
+  year: 2024
+  authors:
+  - Qian Zhu
+  - Zhuo Wang
+  - Wei Zeng
+  - Wai Tong
+  - Weiyue Lin
+  - Xiaojuan Ma
+  venue: ACM Conference on Human Factors in Computing Systems (CHI)
+  url: https://dl.acm.org/doi/10.1145/3613904.3642049
+  doi: 10.1145/3613904.3642049
+  image: chi2024_situated_interaction.png
+  type: conference
+  categories:
+  - Data Visualization
+  - AR/VR
+- id: chi2024_elderly_ar
+  title: Exploring the Opportunity of Augmented Reality (AR) in Supporting Older Adults
+    Explore and Learn Smartphone Applications
+  date: '2024-01-22T12:42:41-06:00'
+  year: 2024
+  authors:
+  - Xiaofu Jin
+  - Wai Tong
+  - Xiaoying Wei
+  - Xian Wang
+  - Emily Kuang
+  - Xiaoyu Mo
+  - Huamin Qu
+  - Mingming Fan
+  venue: ACM Conference on Human Factors in Computing Systems (CHI)
+  url: https://dl.acm.org/doi/10.1145/3613904.3641901
+  doi: 10.1145/3613904.3641901
+  image: chi2024_elderly_ar.png
+  type: conference
+  categories:
+  - AR/VR
+  - Assessibility
+- id: mm2023metashadow
+  title: Feeling Present! From Physical to Virtual Cinematography Lighting Education
+    with Metashadow
+  date: '2023-07-26T21:54:02+08:00'
+  year: 2023
+  authors:
+  - Zheng Wei
+  - Xian Xu
+  - Lik-Hang Lee
+  - Wai Tong
+  - Huamin Qu
+  - Pan Hui
+  venue: ACM International Conference on Multimedia (MM)
+  url: https://dl.acm.org/doi/10.1145/3581783.3612580
+  doi: 10.1145/3581783.3612580
+  image: mm2023.png
+  type: conference
+  categories:
+  - AR/VR
+  - Education
+  - Cinematography
+- id: vis2023workshop_echoes
+  title: 'Echoes in the Gallery: A Collaborative Immersive Analytics System for Analyzing
+    Audience Reactions in Virtual Reality Exhibitions'
+  date: '2023-07-22T09:30:26+08:00'
+  year: 2023
+  authors:
+  - Linping Yuan
+  - Wai Tong
+  - Kentaro Takahira
+  - Zikai Wen
+  - Yalong Yang
+  venue: Multimodal Experiences for Remote Communication Around Data Online Workshop
+    (MERCADO) @ IEEE Vis
+  url: https://doi.org/10.31219/osf.io/zmyx9
+  doi: 10.31219/osf.io/zmyx9
+  image: vis23workshop_echoes.jpg
+  type: workshop
+  categories:
+  - AR/VR
+  - Data Visualization
+- id: vis2023poster_timewalk
+  title: 'Time Walk: Blending Presence and History through AR Visualization'
+  date: '2023-07-22T09:30:26+08:00'
+  year: 2023
+  authors:
+  - Wai Tong
+  - Linping Yuan
+  - Zikai Wen
+  - Huamin Qu
+  venue: IEEE Visualization Conference (VIS)
+  url: pdf/vis2023poster_timewalk.pdf
+  image: vis2023poster_timewalk.png
+  type: poster
+  categories:
+  - Data Visualization
+  - AR/VR
+  - Storytelling
+- id: vis2023poster_earthoria
+  title: Landslide visualization situated on tangible terrain models
+  date: '2023-07-22T09:30:21+08:00'
+  year: 2023
+  authors:
+  - Haobo Li
+  - Kentaro Takahira
+  - Kam Kwai Wong
+  - Leni Yang
+  - Wai Tong
+  - Huamin Qu
+  venue: IEEE Visualization Conference (VIS)
+  url: https://ieeevis.org/year/2023/info/posters
+  image: vis2023poster_earthoria.png
+  type: poster
+  categories:
+  - AR/VR
+  - Sustainability
+- id: pvis2023datavideo
+  title: 'Understanding 3D Data Videos: From Screens to Virtual Reality'
+  date: '2023-02-03T21:55:35+08:00'
+  year: 2023
+  authors:
+  - Leni Yang
+  - Aoyu Wu
+  - Wai Tong
+  - Xian Xu
+  - Zheng Wei
+  - Huamin Qu
+  venue: IEEE Pacific Visualization Symposium (PacificVis)
+  url: https://ieeexplore.ieee.org/document/10148393
+  doi: 10.1109/PacificVis56936.2023.00029
+  image: pvis2023.png
+  type: conference
+  categories:
+  - Data Visualization
+  - AR/VR
+  - Storytelling
+- id: asymCollabVis
+  title: Towards an Understanding of Distributed Asymmetric Collaborative Visualization
+    on Problem-solving
+  date: '2023-01-18T23:08:48+08:00'
+  year: 2023
+  authors:
+  - Wai Tong
+  - Meng Xia
+  - Kam Kwai Wong
+  - Doug Bowman
+  - Ting-Chuen Pong
+  - Huamin Qu
+  - Yalong Yang
+  venue: IEEE Conference on Virtual Reality and 3D User Interfaces (VR)
+  url: https://ieeexplore.ieee.org/document/10108427
+  doi: 10.1109/VR55154.2023.00054
+  image: vr2023.png
+  type: conference
+  categories:
+  - Data Visualization
+  - AR/VR
+  - Collaboration
+  video: https://youtu.be/_ZYkCJcYn1Q
+  code: https://github.com/asymcollabvis/asymcollabvis
+  note: Invited to present at IEEE VIS 2023
+- id: vrw2023artmirror
+  title: 'Cinematography in the Metaverse: Exploring the Lighting Education on a Soundstage'
+  date: '2023-01-17T21:46:03+08:00'
+  year: 2023
+  authors:
+  - Xian Xu
+  - Wai Tong
+  - Zheng Wei
+  - Meng Xia
+  - Lik-Hang Lee
+  - Huamin Qu
+  venue: IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops
+    (VRW)
+  url: https://ieeexplore.ieee.org/document/10108863
+  doi: 10.1109/VRW58643.2023.00128
+  image: vrw2023.jpeg
+  type: poster
+  categories:
+  - AR/VR
+  - Education
+  - Cinematography
+  video: https://www.youtube.com/watch?v=ZV7VXiGq9zg
+- id: arinteract
+  title: Exploring Interactions with Printed Data Visualizations in Augmented Reality
+  date: '2022-07-17T10:01:19-04:00'
+  year: 2022
+  authors:
+  - Wai Tong
+  - Zhutian Chen
+  - Meng Xia
+  - Leo Yu-Ho Lo
+  - Linping Yuan
+  - Benjamin Bach
+  - Huamin Qu
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG)
+  url: https://ieeexplore.ieee.org/document/9904446
+  doi: 10.1109/TVCG.2022.3209386
+  image: vis2022.jpg
+  award: "\U0001F3C6 IEEE VIS 2022 Honorable Mention Award"
+  type: journal
+  categories:
+  - Data Visualization
+  - AR/VR
+  video: https://youtu.be/ZLV3XKpjsBs
+  note: Invited to present at ACM SIGGRAPG Asia 2022
+- id: computableviz
+  title: 'ComputableViz: Mathematical Operators as a Formalism for Visualization Processing
+    and Analysis'
+  date: '2022-05-10T16:36:29+08:00'
+  year: 2022
+  authors:
+  - Aoyu Wu
+  - Wai Tong
+  - Haotian Li
+  - Dominik Moritz
+  - Yong Wang
+  - Huamin Qu
+  venue: ACM Conference on Human Factors in Computing Systems (CHI)
+  url: https://dl.acm.org/doi/abs/10.1145/3491102.3517618
+  doi: 10.1145/3491102.3517618
+  image: chi2022.png
+  type: conference
+  categories:
+  - Data Visualization
+  - AI4VIS
+  video: https://www.youtube.com/watch?v=NQXaIwgHePM
+  code: https://github.com/wowjyu/ComputableViz
+- id: seatvr
+  title: Let Every Seat Be Perfect! A Case Study on Combining BIM and VR for Room
+    Planning
+  date: '2022-05-10T16:36:14+08:00'
+  year: 2022
+  authors:
+  - Wai Tong
+  - Haotian Li
+  - Huan Wei
+  - Liwenhan Xie
+  - Yanna Lin
+  - Huamin Qu
+  equal_contributors:
+  - Wai Tong
+  - Haotian Li
+  - Huan Wei
+  - Liwenhan Xie
+  - Yanna Lin
+  authors_note: "(*: equal contribution)"
+  venue: IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops
+    (VRW)
+  url: https://ieeexplore.ieee.org/document/9757646
+  doi: 10.1109/VRW55335.2022.00239
+  image: vrw2022.png
+  type: poster
+  categories:
+  - AR/VR
+  - Digital Twin
+  video: https://www.youtube.com/watch?v=-nz2LG7Gzio
+- id: mobilevisfixer
+  title: 'MobileVisFixer: Tailoring Web Visualizations for Mobile Phones Leveraging
+    an Explainable Reinforcement Learning Framework'
+  date: '2022-05-10T16:36:00+08:00'
+  year: 2020
+  authors:
+  - Aoyu Wu
+  - Wai Tong
+  - Tim Dwyer
+  - Bongshin Lee
+  - Petra Isenberg
+  - Huamin Qu
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG)
+  url: https://ieeexplore.ieee.org/abstract/document/9229072
+  doi: 10.1109/TVCG.2020.3030423
+  image: vis2020.png
+  type: journal
+  categories:
+  - Data Visualization
+  - AI4VIS
+  video: https://www.youtube.com/watch?v=7vJkxLGdRBU
+- id: paparvis
+  title: Augmenting Static Visualizations with PapARVis Designer
+  date: '2022-05-10T16:35:53+08:00'
+  year: 2020
+  authors:
+  - Zhutian Chen
+  - Wai Tong
+  - Qianwen Wang
+  - Benjamin Bach
+  - Huamin Qu
+  venue: ACM Conference on Human Factors in Computing Systems (CHI)
+  url: https://dl.acm.org/doi/abs/10.1145/3313831.3376436
+  doi: 10.1145/3313831.3376436
+  image: chi2020.png
+  type: conference
+  categories:
+  - Data Visualization
+  - AR/VR
+  video: https://www.youtube.com/watch?v=EKQCRMVrgOc
+  code: https://github.com/PapARVis
+

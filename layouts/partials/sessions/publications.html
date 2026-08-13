@@ -1,88 +1,101 @@
+{{ $publications := sort site.Data.publications "date" "desc" }}
 <section id="publications" class="bg-light">
   <div class="container">
     <div class="row">
       <div class="col mx-auto">
         {{ with .Site.GetPage "section" "publications" }}
-        <h2 class="text-center pb-2">{{.Title}}</h2>
+        <h2 class="text-center pb-2">{{ .Title }}</h2>
 
-        {{ range .Pages.ByDate.Reverse }}
+        {{ range $publications }}
+        {{ $publication := . }}
+        {{ $equalContributors := default (slice) .equal_contributors }}
         <div class="row pb-3">
           <div class="col-md-4">
             <img
               class="img-fluid img-thumbnail rounded mx-auto d-block shadow-sm"
-              src="{{ if .Params.imgSrc}} {{.Params.imgSrc}} {{else}} /img/placeholder.png {{end}}"
-              alt="image"
+              src="{{ with .image }}/img/{{ . }}{{ else }}/img/placeholder.png{{ end }}"
+              alt="Thumbnail for {{ .title }}"
             />
           </div>
           <div class="col-md-8">
             <div>
+              {{ with .url }}
               <a
-                href="{{.Params.link}}"
-                target="blank"
+                href="{{ . }}"
+                target="_blank"
+                rel="noopener noreferrer"
                 style="text-decoration: none"
-                >{{.Params.paperTitle}}</a
-              >
+              >{{ $publication.title }}</a>
+              {{ else }}
+              <strong>{{ $publication.title }}</strong>
+              {{ end }}
             </div>
-            <div>{{ partial "author-list.html" . }}</div>
-            {{ if .Params.authorsNote}}
-            <small>{{.Params.authorsNote}}</small>
-            {{end}} {{ $publication_type := index .Params.publication_types 0 }}
             <div>
-              <span class="publication-type {{$publication_type}}"
-                >{{$publication_type | title }}</span
-              >
-              {{.Params.conference}}, {{.Params.year}}
+              {{ range $index, $author := .authors -}}
+                {{- if $index }}, {{ end -}}
+                {{- if eq $author "Wai Tong" }}<strong>{{ $author }}</strong>{{ else }}{{ $author }}{{ end -}}
+                {{- if in $equalContributors $author }}*{{ end -}}
+              {{- end }}
             </div>
-            {{ if .Params.award }}
-            <div><strong>{{.Params.award}}</strong></div>
-            {{end}}
-            {{ if .Params.extra }}
-            <div><i>{{.Params.extra}}</i></div>
-            {{end}}
+            {{ with .authors_note }}
+            <small>{{ . }}</small>
+            {{ end }}
+            <div>
+              <span class="publication-type {{ .type }}">{{ .type | title }}</span>
+              {{ .venue }}, {{ .year }}
+            </div>
+            {{ with .award }}
+            <div><strong>{{ . }}</strong></div>
+            {{ end }}
+            {{ with .note }}
+            <div><i>{{ . }}</i></div>
+            {{ end }}
 
             <div style="display: flex; flex-direction: row; gap: 10px">
-              {{ if .Params.video }}
+              {{ with .video }}
               <div>
                 <a
-                  href="{{.Params.video}}"
-                  target="blank"
+                  href="{{ . }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Video"
                   style="text-decoration: none"
                 >
                   <i class="fas fa-video"></i>
                 </a>
               </div>
-              {{end}} {{ if .Params.github }}
+              {{ end }}
+              {{ with .code }}
               <div>
                 <a
-                  href="{{.Params.github}}"
-                  target="blank"
+                  href="{{ . }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Source code"
                   style="text-decoration: none"
                 >
                   <i class="fab fa-github"></i>
                 </a>
               </div>
-              {{end}}
-              {{ with .Params.doi }}
+              {{ end }}
+              {{ with .doi }}
               <div>
                 <a
-                  href="https://doi.org/{{.}}"
-                  target="blank"
+                  href="https://doi.org/{{ . }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="DOI"
                   style="text-decoration: none"
                 >
-                 <i class="ai ai-doi"></i>
+                  <i class="ai ai-doi"></i>
                 </a>
               </div>
-              {{end}}
+              {{ end }}
             </div>
-
-            <!-- <div>
-            {{ with .Params.publication_categories }} {{ range $k, $cat := . -}}
-              <span class="badge {{$cat | anchorize}} rounded-pill">{{$cat}}</span>
-              {{ end }} {{ end }}
-            </div> -->
           </div>
         </div>
-        {{end}} {{end}}
+        {{ end }}
+        {{ end }}
       </div>
     </div>
   </div>
