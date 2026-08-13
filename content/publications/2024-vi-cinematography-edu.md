@@ -13,7 +13,8 @@ authors:
 - Lik-Hang Lee
 - Huamin Qu
 authorsNote:
-link: 
+link: https://www.sciencedirect.com/science/article/pii/S2468502X24000688
+doi: 10.1016/j.visinf.2024.11.003
 imgSrc: img/2024-vi-cinematography-edu.jpg
 award:
 publication_types:

@@ -14,7 +14,7 @@ authors:
 - Huamin Qu
 - Yalong Yang
 authorsNote:
-link:
+link: https://ieeexplore.ieee.org/document/10870571
 doi: 10.1109/TVCG.2025.3538771
 imgSrc: img/tvcg2025.png
 award:

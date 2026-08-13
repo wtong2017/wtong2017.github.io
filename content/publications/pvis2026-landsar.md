@@ -17,7 +17,8 @@ authors:
 - Huamin Qu
 - Leni Yang
 authorsNote:
-link:
+link: https://ieeexplore.ieee.org/document/11558863
+doi: 10.1109/PacificVis68791.2026.00030
 imgSrc: img/pvis2026.png
 award:
 publication_types:

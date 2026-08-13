@@ -13,7 +13,7 @@ authors:
 - Wai Tong
 - Huamin Qu
 authorsNote:
-link:
+link: https://ieeevis.org/year/2023/info/posters
 imgSrc: img/vis2023poster_earthoria.png
 award:
 publication_types:

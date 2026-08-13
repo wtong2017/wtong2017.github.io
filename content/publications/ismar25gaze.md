@@ -15,7 +15,7 @@ authors:
 - Wai Tong
 - Xian Xu
 authorsNote:
-link:
+link: https://ieeexplore.ieee.org/document/11220380
 doi: 10.1109/ISMAR67309.2025.00027
 imgSrc: img/ismar2025gaze.png
 award:

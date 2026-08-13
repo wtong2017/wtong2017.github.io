@@ -10,7 +10,8 @@ authors:
   - Meng Xia
   - Huamin Qu
 authorsNote:
-link:
+link: https://dl.acm.org/doi/10.1145/3613905.3650924
+doi: 10.1145/3613905.3650924
 imgSrc: img/chi2024lbw_stage.png
 video: https://youtu.be/svWVJC6SDWI
 award:

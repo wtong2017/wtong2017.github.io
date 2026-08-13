@@ -17,7 +17,8 @@ authors:
 - Wai Tong
 - Pan Hui
 authorsNote:
-link: 
+link: https://ieeexplore.ieee.org/document/11458679
+doi: 10.1109/TVCG.2026.3679057
 imgSrc: img/vr2026.png
 award:
 publication_types:

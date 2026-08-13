@@ -10,7 +10,7 @@ authors:
 - Xiaolin Ni
 - Meng Xia
 authorsNote:
-link:
+link: https://sites.google.com/view/xr-phy-2025/accepted-papers
 imgSrc: img/2025-chi-artask.jpg
 award:
 publication_types:

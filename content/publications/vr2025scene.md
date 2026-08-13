@@ -16,7 +16,7 @@ authors:
 - Wai Tong
 - Xian Xu
 authorsNote:
-link:
+link: https://ieeexplore.ieee.org/document/10916813
 doi: 10.1109/TVCG.2025.3549189
 imgSrc: img/vr2025.png
 award: 🏆 IEEE VR 2025 Honorable Mention Award

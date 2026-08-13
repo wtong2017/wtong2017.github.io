@@ -12,7 +12,7 @@ authors:
 - Huamin Qu
 - Yalong Yang
 authorsNote:
-link: https://arxiv.org/abs/2408.05105
+link: https://dl.acm.org/doi/10.1145/3698130
 doi: 10.1145/3698130
 imgSrc: img/iss2024.png
 award:

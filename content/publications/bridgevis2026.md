@@ -1,6 +1,6 @@
 ---
 title: "BridgeVis2026"
-paperTitle: "BridgeVis: Linking quantitative analysis and qualitative experience for data visualization in virtual reality"
+paperTitle: "BridgeVis: Linking Quantitative Analysis and Qualitative Experience for Data Visualization in Virtual Reality"
 date: 2026-08-12T18:32:39-05:00
 draft: false
 conference: Visual Informatics
