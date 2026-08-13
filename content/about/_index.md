@@ -12,4 +12,4 @@ I received my Ph.D. degree in the department of Computer Science and Engineering
 
 My research interests lie in the area of *AR/VR/MR*, *Data visualization*, and *Human–computer interaction*. Specifically, I focus on **bringing data visualization beyond traditional workspace (i.e., personal computer) to everyday life using AR/VR technology for more efficient and effective data exploration and analysis**.
 
-Please also don't hesitate to contact me at wtong(at)tamu(dot)edu for any collaboration opportunities or inquiries.
+Please also don't hesitate to contact me at [wtong@tamu.edu](mailto:wtong@tamu.edu) for any collaboration opportunities or inquiries.
