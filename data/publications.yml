@@ -331,7 +331,7 @@
   type: conference
   categories:
   - AR/VR
-  - Assessibility
+  - Accessibility
 - id: mm2023metashadow
   title: Feeling Present! From Physical to Virtual Cinematography Lighting Education
     with Metashadow
@@ -590,4 +590,3 @@
   - AR/VR
   video: https://www.youtube.com/watch?v=EKQCRMVrgOc
   code: https://github.com/PapARVis
-
