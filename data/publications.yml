@@ -15,6 +15,22 @@
   categories:
   - Data Visualization
   - AR/VR
+- id: vrw2026-shopping
+  title: AIs or Humans in Luxury Shopping? A Design Study of VR Shopping Assistants
+  date: '2026-05-01T00:00:00-05:00'
+  year: 2026
+  authors:
+  - Shan Jin
+  - Ruoqing Yang
+  - Wai Tong
+  - Lik-Hang Lee
+  venue: IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops
+    (VRW)
+  url: https://ieeexplore.ieee.org/document/11489659
+  doi: 10.1109/VRW70859.2026.00252
+  type: conference
+  categories:
+  - AR/VR
 - id: pvis2026-landsar
   title: 'LandSAR: Visceralizing Landslide Data for Enhanced Situational Awareness
     in Immersive Analytics'
