@@ -5,6 +5,7 @@ draft: false
 ---
 
 I am currently an assistant professor for the Section of Visual Computing & Computational Media and Virtual Production Institude in the [College of Performance, Visualization and Fine Art](https://pvfa.tamu.edu/) (PVFA) at [Texas A&M University](https://www.tamu.edu/index.html) (TAMU).
+I am also affiliated with the Department of Computer Science and Engineering (CSE) at TAMU.
 I lead the [VVAI Lab](https://vvai-lab.github.io/) (Visualization, Virtual reality, Augmented reality, and Interaction Lab).
 I received my Ph.D. degree in the department of Computer Science and Engineering under the supervision of [Prof. Huamin Qu](http://huamin.org) and [Prof. Ting Chuen Pong](https://seng.hkust.edu.hk/about/people/faculty/ting-chuen-pong) at the [Hong Kong University of Science and Technology](https://www.ust.hk) (HKUST). 
 <!-- I have visited [Dr. Yalong Yang](https://vis.yalongyang.com/) at [Virginia Tech](https://www.vt.edu/) during summer 2022.  -->
